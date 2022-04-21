@@ -1,0 +1,45 @@
+.advice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+.app {
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  text-align: center;
+  background-color: rgb(93 93 122);
+  color: rgb(223 193 205);
+  border-radius: 25px;
+  font-size: 1.2rem;
+  padding: 3rem;
+}
+
+.button {
+  font-weight: 800;
+  outline: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  opacity: 1;
+  height: 40px;
+  width: 150px;
+  background: #323145;
+  color: rgb(223 193 205);
+  transition: all 1s;
+  border-radius: 7px;
+}
+
+.button:hover {
+  background: #796b9c;
+  color: #323145;
+}
