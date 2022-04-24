@@ -24,14 +24,14 @@ function Advice() {
 
   return (
     <div className="advice">
-    <div className="app">
-      <div className="card">
-        <h2>{advice}</h2>
+      <div className="app">
+        <div className="card">
+          <h2>{advice}</h2>
+        </div>
+        <button className="button" onClick={fetchAdvice}>
+          <span>GIVE ME ADVICE!!</span>
+        </button>
       </div>
-      <button className="button" onClick={fetchAdvice}>
-        <span>GIVE ME ADVICE!!</span>
-      </button>
-    </div>
     </div>
   );
 }
